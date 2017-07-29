@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">United We</string>
+    <string name="title_country_detail">Country Detail</string>
+    <string name="code">Code</string>
+    <string name="capital">Capital</string>
+    <string name="region">Region</string>
+    <string name="subregion">SubRegion</string>
+    <string name="population">Population</string>
+</resources>

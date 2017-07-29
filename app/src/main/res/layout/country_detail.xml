@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/country_detail_code"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            tools:context="com.mandarjoshi.unitedwe.ui.CountryDetailFragment" />
+        <TextView
+            android:id="@+id/country_details_capital"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:layout_marginTop="8dp"
+            tools:context="com.mandarjoshi.unitedwe.ui.CountryDetailFragment" />
+        <TextView
+            android:id="@+id/country_detail_region"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:layout_marginTop="8dp"
+            tools:context="com.mandarjoshi.unitedwe.ui.CountryDetailFragment" />
+        <TextView
+            android:id="@+id/country_detail_subregion"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:textIsSelectable="true"
+            tools:context="com.mandarjoshi.unitedwe.ui.CountryDetailFragment" />
+        <TextView
+            android:id="@+id/country_detail_population"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:layout_marginTop="8dp"
+            tools:context="com.mandarjoshi.unitedwe.ui.CountryDetailFragment" />
+    </LinearLayout>
+</ScrollView>
